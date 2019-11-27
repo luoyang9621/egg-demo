@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["s1"],{"9e7f":function(s,n,e){"use strict";e.r(n);var t=function(){var s=this,n=s.$createElement,e=s._self._c||n;return e("div",{staticClass:"p1"},[s._v("\n  这个是ssss1页面\n")])},a=[],c={name:"p1"},i=c,l=e("2877"),p=Object(l["a"])(i,t,a,!1,null,"95633016",null);n["default"]=p.exports}}]);
