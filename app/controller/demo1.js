@@ -10,8 +10,9 @@ class Demo1Controller extends Controller {
       { title: '新闻3', url: 'www.baidu.com' },
       { title: '新闻4', url: 'www.baidu.com' },
     ];
+    console.log(22, this.ctx.response.header);
     this.ctx.response.type = 'html';
-    this.ctx.body = fs.readFileSync(path.resolve(__dirname, '../view/client/index.html'));
+    this.ctx.body = fs.readFileSync(path.resolve(__dirname, '../public/client/index.html'));
   }
 }
 
